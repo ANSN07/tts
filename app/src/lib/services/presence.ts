@@ -123,7 +123,7 @@ function refreshLoEvent(loEvent: LoEvent, nextLoEvent: LoEvent) {
 currentCourse.subscribe((current) => {
   if (current) {
     presenceService.partyKitCourse = new PartySocket({
-      host: "https://tutors-party.edeleastar.partykit.dev",
+      host: "https://tutors-party.ansn07.partykit.dev",
       room: current.courseId
     });
   }
